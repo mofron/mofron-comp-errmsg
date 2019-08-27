@@ -1,0 +1,7 @@
+<require>
+    <tag module="mofron-comp-errmsg">ErrMsg</tag>
+</require>
+
+<ErrMsg visible=true>
+    error message
+</ErrMsg>

@@ -1,6 +1,7 @@
 /**
  * @file   mofron-comp-errmsg/index.js
  * @brief  error message component
+ *         message component with default mainColor config
  * @author simpart
  */
 const mf = require('mofron');
@@ -10,8 +11,8 @@ mf.comp.ErrMsg = class extends Message {
     /**
      * initialize component
      * 
-     * @param p1 (object) component option
-     * @param p1 (string) message text
+     * @param (mixed) mofron-comp-message parameter
+     * @type private
      */
     constructor (po) {
         try {
@@ -26,6 +27,8 @@ mf.comp.ErrMsg = class extends Message {
     
     /**
      * initialize dom contents
+     *
+     * @type private
      */
     initDomConts () {
         try {
