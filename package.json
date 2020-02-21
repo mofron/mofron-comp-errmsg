@@ -1,6 +1,6 @@
 {
   "name": "mofron-comp-errmsg",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "error message component for mofron",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "mofron-comp-message" : ""
   },
   "keywords": [
-    "front-end"
+    "front-end", "mofron"
   ],
   "author": "simparts",
   "license": "MIT",

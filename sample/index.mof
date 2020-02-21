@@ -1,7 +1,9 @@
 <require>
-    <tag module="mofron-comp-errmsg">ErrMsg</tag>
+    <tag load="mofron-comp-errmsg">ErrMsg</tag>
 </require>
 
-<ErrMsg visible=true>
-    error message
-</ErrMsg>
+<script run=after>
+emsg.visible(true);
+</script>
+
+<ErrMsg name=emsg>error message</ErrMsg>
