@@ -21,7 +21,7 @@ npm install mofron mofron-comp-errmsg
 emsg.visible(true);
 </script>
 
-<ErrMsg name=emsg>error message</ErrMsg>
+<ErrMsg name=@emsg>error message</ErrMsg>
 ```
 
 # Parameter
