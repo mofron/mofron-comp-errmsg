@@ -30,4 +30,5 @@ emsg.visible(true);
 |:-------------:|:---------------|:-----|:------------|
 | ◯  | text | mixed | string: error message string |
 | | | | moforn-comp-text: error message text component |
+| | | | undefined: call as getter |
 
