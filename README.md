@@ -13,9 +13,9 @@ npm install mofron mofron-comp-errmsg
 
 # Sample
 ```html
-<require>
+<setting>
     <tag load="mofron-comp-errmsg">ErrMsg</tag>
-</require>
+</setting>
 
 <script run=after>
 emsg.visible(true);
