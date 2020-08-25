@@ -17,7 +17,7 @@ module.exports = class extends Message {
     constructor (prm) {
         try {
             super();
-            this.name('ErrMsg');
+            this.modname('ErrMsg');
             /* init config */
             this.confmng().add("mainColor", { type:"color" });
 	    /* set config */
