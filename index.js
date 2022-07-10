@@ -39,6 +39,7 @@ module.exports = class extends Message {
         try {
             super.initDomConts();
             this.color([255,50,50], [255,240,240], [255,50,50]);
+	    this.closeComp().visible(false);
         } catch (e) {
             console.error(e.stack);
             throw e;
