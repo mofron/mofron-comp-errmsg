@@ -1,6 +1,6 @@
 {
   "name": "mofron-comp-errmsg",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "error message component for mofron",
   "main": "index.js",
   "scripts": {

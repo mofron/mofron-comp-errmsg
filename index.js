@@ -67,6 +67,20 @@ module.exports = class extends Message {
             throw e;
 	}
     }
+
+    error (msg) {
+        try {
+            if (null === msg) {
+                this.visible(false);
+		return;
+            }
+            this.text(msg);
+            this.visible(true);
+	} catch (e) {
+            console.error(e.stack);
+            throw e;
+	}
+    }
     
     /**
      * message text color setter/getter
